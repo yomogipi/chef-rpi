@@ -1,6 +1,7 @@
 {
   "run_list": [
-    "recipe[base]"
+    "recipe[base]",
+    "recipe[vnc_server]"
   ],
   "automatic": {
     "ipaddress": "raspberrypi.local"
